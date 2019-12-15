@@ -1,3 +1,5 @@
 # @masp/bullmq
 
-masp bullmq best practices
+masp [bullmq](https://github.com/taskforcesh/bullmq) best practices
+
+
