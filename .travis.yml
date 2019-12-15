@@ -1,8 +1,7 @@
-sudo: false
 language: node_js
 node_js:
   - '12'
-# keep the npm cache to speed up installs
+# keep the yarn cache to speed up installs
 cache:
   directories:
     - '$HOME/.yarn'

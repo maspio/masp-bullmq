@@ -31,7 +31,8 @@
     "version": "standard-version",
     "reset": "git clean -dfx && git reset --hard && yarn install",
     "clean": "trash build test",
-    "prepare-release": "run-s reset test cov:check doc:html version doc:publish"
+    "prepare-release": "run-s reset test cov:check doc:html version doc:publish",
+    "publish-after-prepare-release": "git push --follow-tags origin master && npm publish"
   },
   "scripts-info": {
     "info": "Display information about the package scripts",
