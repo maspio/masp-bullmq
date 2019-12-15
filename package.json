@@ -1,6 +1,6 @@
 {
   "name": "@masp/bullmq",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "masp bullmq best practices",
   "main": "build/main/index.js",
   "typings": "build/main/index.d.ts",
